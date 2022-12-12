@@ -71,7 +71,7 @@ class HomeView extends GetView<HomeController> {
                 border: Border.all(),
               ),
               child: TextFormField(
-                // controller: productC.namapC,
+                controller: controller.name,
                 style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.normal,
