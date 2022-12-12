@@ -8,6 +8,10 @@ import 'package:test_programming_rahmattobihidayat/app/modules/home/models/provi
 
 class HomeController extends GetxController {
   TextEditingController date = TextEditingController();
+  TextEditingController name = TextEditingController();
+  TextEditingController jk = TextEditingController();
+  TextEditingController prov = TextEditingController();
+  TextEditingController kota = TextEditingController();
 
   // JK
   String? selectedGender;
@@ -48,6 +52,10 @@ class HomeController extends GetxController {
   void onInit() {
     super.onInit();
     date = TextEditingController();
+    name = TextEditingController();
+    jk = TextEditingController();
+    prov = TextEditingController();
+    kota = TextEditingController();
     getProvince();
   }
 
